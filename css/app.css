@@ -1,0 +1,27 @@
+:root {
+  --bs-blue: #037bc0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Onest", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+
+@media (width >= 768px){
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+.text-primary {
+  color: var(--bs-blue) !important;
+}
