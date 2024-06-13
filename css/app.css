@@ -25,3 +25,7 @@ h1 {
 .text-primary {
   color: var(--bs-blue) !important;
 }
+
+.name-site {
+  color: var(--bs-blue) !important;
+}
