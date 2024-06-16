@@ -81,3 +81,12 @@ h3 {
     width: 100%;
   }
 }
+
+.category img {
+  transition-property: transform;
+  transition-duration: 300ms;
+}
+
+.category img:hover {
+  transform: scale(1.2);
+}
